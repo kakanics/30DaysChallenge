@@ -1,0 +1,8 @@
+press mouse somewhere to create particles
+hold and drag to spawn many particles
+
+particles fall automatically
+particles check 3 spots below(below left, below and below right)
+colour changes from hue degree 1 to 360 and keeps cycling
+
+independent performance of number of particles 

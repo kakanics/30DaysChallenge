@@ -1,0 +1,6 @@
+The game was devised by John Conway around 1970
+
+a dead cell with 2 or 3 live cells becomes live in next generation
+a live cell with less than 2 or more than 3 live cells dies in the next generation
+
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life

@@ -1,0 +1,4 @@
+surface of water as sum of 8 sine waves
+
+each wave starts with a random phase
+each wave has a predetermined frequency and amplitude

@@ -5,10 +5,8 @@ import random
 # Initialize Pygame
 pygame.init()
 
-# Define the window size
 window_size = (500, 500)
 
-# Create the window
 window = pygame.display.set_mode(window_size)
 
 
@@ -31,31 +29,24 @@ waves = [
         0, 2 * math.pi), "speed": 0.08},
 ]
 
-# Main loop
 running = True
-# Inside your main loop
-# Inside your main loop
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
 
-    # Clear the window
     window.fill((0, 0, 0))
 
-    # Draw the water surface
     for x in range(window_size[0]):
         y = window_size[1] // 2
         for wave in waves:
             y -= wave["amplitude"] * \
                 math.sin(wave["frequency"] * x + wave["phase"])
 
-        # Limit y to be within the window
         y = max(min(y, window_size[1]), 0)
 
         pygame.draw.line(window, (0, 0, 255), (x, y), (x, window_size[1]))
 
-    # Update the phase of each wave
     for wave in waves:
         wave["phase"] += wave["speed"]/10
         wave["phase"] += random.uniform(0, 0.05)

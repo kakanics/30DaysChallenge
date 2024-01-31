@@ -1,0 +1,6 @@
+top bar shows color
+
+select a color from top bar
+press anywhere in the grid to paint that color
+no undo 
+no brush size, only one unit at a time

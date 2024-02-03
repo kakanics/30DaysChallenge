@@ -1,0 +1,4 @@
+A day was missed because I was travelling
+
+change the parameters under the #parameters tag
+this is a very simplified model

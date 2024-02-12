@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+button {
+    position: absolute;
+    padding: 10px 20px;
+}
